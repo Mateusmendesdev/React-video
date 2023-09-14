@@ -1,0 +1,55 @@
+.navbar {
+    background-color: var(--nav-background);
+    color: var(--text-color); 
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+a {
+    color: var(--text-color);
+    margin: 20px;
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--ui-element-background);
+    border: 1px solid var(--text-color);
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--transition-speed);
+    color: white;
+    background: rgb(111, 58, 186);
+    transition: transform 3s;
+    transform: translateX(none) scale(0.5);
+}
+
+button:hover {
+    background-color: var(--ui-element-hover);
+}
+
+button:hover,
+button:focus {
+  background: rgb(120, 192, 211);
+  transform: translateX(10px) scale(1.2);
+  
+}
+
+h1 {
+    font-size: medium;
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}
+

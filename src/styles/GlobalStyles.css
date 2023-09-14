@@ -1,0 +1,14 @@
+:root {
+    /* Tema Padrão (similar ao tema escuro do YouTube) */
+    --background-color: #181818;
+    --text-color: #FFFFFF;
+    --nav-background: #202020;
+    --ui-element-background: #3a3a3a; 
+    --ui-element-hover: #555;
+    --border-color: #333;
+    --active-color: #ff0000; /* Vermelho do YouTube */
+    --secondary-text-color: #aaa;
+}
+
+
+
